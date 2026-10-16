@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "playerinhabitationmod",
+  "version": "1.0.0",
+  "name": "Player Inhabitation Mod",
+  "description": "A mod that allows you to inhabit players and stop time",
+  "authors": ["Denis Kovpak"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.deniskovpak9.playerinhabitationmod.PlayerInhabitationMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.21.4",
+    "java": ">=17"
+  }
+}
